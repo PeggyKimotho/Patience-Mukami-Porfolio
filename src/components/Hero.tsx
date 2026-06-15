@@ -32,7 +32,7 @@ export default function Hero() {
           linear-gradient(90deg, rgba(255,255,255,0.8) 1px, transparent 1px)`,
         backgroundSize: "80px 80px",
       }} />
-         <div className="relative z-10 max-w-6xl mx-auto px-6 pt-28 pb-16 w-full">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 pt-24 pb-8 w-full">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
 
           {/* LEFT */}
@@ -53,7 +53,7 @@ export default function Hero() {
 </h2>
 
             {/* Value proposition */}
-            <p className="text-base leading-relaxed mb-10 max-w-md" style={{
+            <p className="text-base leading-relaxed mb-6 max-w-md" style={{
               color: "var(--muted)",
               opacity: 0,
               animation: "fadeUp 0.7s 0.5s ease forwards",
@@ -64,7 +64,7 @@ export default function Hero() {
             </p>
 
             {/* Stats strip */}
-<div className="grid grid-cols-3 gap-3 mb-8" style={{ opacity: 0, animation: "fadeUp 0.7s 0.8s ease forwards" }}>
+<div className="grid grid-cols-3 gap-3 mb-4" style={{ opacity: 0, animation: "fadeUp 0.7s 0.8s ease forwards" }}>
               {stats.map(({ value, label, sub }) => (
                <div key={label} className="text-center py-4 px-2 rounded-xl transition-all duration-300 hover:-translate-y-1"
                 style={{ background: "rgba(255,255,255,0.04)", border: "1px solid rgba(37,99,235,0.15)" }}>

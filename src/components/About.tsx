@@ -48,15 +48,11 @@ export default function About() {
               {/* Quote on photo */}
               <div className="absolute bottom-6 left-6 right-6">
                 <p className="font-display text-lg italic text-white leading-snug">
-                  "Education is not the filling of a pail, but the lighting of a fire."
-                </p>
-                <p className="text-xs mt-2" style={{ color: "rgba(255,255,255,0.5)" }}>— W.B. Yeats · A guiding principle</p>
+                  Behind every successful learner is someone who believed they could succeed.               </p>
               </div>
             </div>
 
-            {/* Decorative element */}
-            <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-3xl -z-10"
-              style={{ background: "rgba(196,151,58,0.1)", border: "1px solid rgba(196,151,58,0.2)" }} />
+
           </div>
 
           {/* Text side */}

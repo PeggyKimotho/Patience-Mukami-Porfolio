@@ -40,15 +40,15 @@ borderBottom: scrolled ? "1px solid rgba(255,255,255,0.06)" : "none",
 boxShadow: scrolled ? "0 4px 30px rgba(0,0,0,0.4)" : "none",      }}>
       <nav className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
         <a href="#home" className="font-display tracking-wide flex flex-col leading-tight" style={{ color: "var(--gold)" }}>
-  <span className="text-xl">Patience Mukami Njogu</span>
+  <span className="text-xl font-bold">Patience Mukami Njogu</span>
   <span className="text-xs font-semibold tracking-[0.15em] uppercase" style={{ color: "var(--muted)", fontFamily: "Plus Jakarta Sans, sans-serif" }}>
-    Educator · Curriculum · ESL
+    Educator
   </span>
 </a>
         <ul className="hidden md:flex items-center gap-8">
           {links.map(l => (
             <li key={l.href}>
-              <a href={l.href} className="text-sm font-medium transition-all duration-200 relative group"
+              <a href={l.href} className="text-sm font-bold transition-all duration-200 relative group"
                 style={{ color: active === l.href.replace("#","") ? "var(--gold)" : "var(--muted)" }}>
                 {l.label}
                 <span className="absolute -bottom-1 left-0 h-px transition-all duration-300"
