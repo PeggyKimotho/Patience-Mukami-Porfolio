@@ -48,7 +48,7 @@ export default function Contact() {
             {[
               { icon: Mail,    label: "Email",    value: "patience.mukami@gmail.com",        href: "mailto:patience.mukami@gmail.com" },
               { icon: Phone,   label: "Phone",    value: "+254 704848900 ",                  href: "tel:+254 704848900" },
-              { icon: ExternalLink, label: "LinkedIn", value: "Connect with me on LinkedIn",     href: "https://www.linkedin.com/in/patience-mukami" },
+              { icon: ExternalLink, label: "LinkedIn", value: "Connect with me on LinkedIn",     href: "https://www.linkedin.com/in/patience-mukami-94917b239/" },
             ].map(({ icon: Icon, label, value, href }) => (
               <div key={label} className="flex items-center gap-4 p-4 rounded-2xl transition-all duration-300 hover:-translate-y-1"
                 style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(74,124,89,0.12)" }}>
